@@ -1,0 +1,48 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+}
+
+#instructions {
+    text-align: center;
+    font-size: 20px;
+    background: rgb(159 159 159);
+    color: #fff;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+#left {
+    background: #eee;
+    border: 1px solid #000;
+}
+
+.item {
+    display: block;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.item2 {
+    display: block;
+}
+
+#link {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(159 159 159);
+    color: #fff;
+    padding: 0 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
